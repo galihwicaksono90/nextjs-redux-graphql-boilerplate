@@ -1,0 +1,959 @@
+Info 0    [15:20:03.411] Starting TS Server
+Info 1    [15:20:03.412] Version: 4.6.2
+Info 2    [15:20:03.412] Arguments: /usr/bin/node /home/tony/Documents/nextjs/client/node_modules/typescript/lib/tsserver.js --logFile /home/tony/Documents/nextjs/client/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/db8981019a3f100b38d8fd86554294d6/tscancellation*
+Info 3    [15:20:03.412] Platform: linux NodeVersion: 17 CaseSensitive: true
+Info 4    [15:20:03.412] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [15:20:03.427] Format host information updated
+Info 6    [15:20:03.489] Search path: /home/tony/Documents/nextjs/client/src/pages
+Info 7    [15:20:03.491] For info: /home/tony/Documents/nextjs/client/src/pages/index.js :: Config file name: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 8    [15:20:03.491] Creating configuration project /home/tony/Documents/nextjs/client/tsconfig.json
+Info 9    [15:20:03.526] Config: /home/tony/Documents/nextjs/client/tsconfig.json : {
+ "rootNames": [
+  "/home/tony/Documents/nextjs/client/next-env.d.ts",
+  "/home/tony/Documents/nextjs/client/src/components/Testing.tsx"
+ ],
+ "options": {
+  "target": 1,
+  "lib": [
+   "lib.dom.d.ts",
+   "lib.dom.iterable.d.ts",
+   "lib.esnext.d.ts"
+  ],
+  "allowJs": true,
+  "skipLibCheck": true,
+  "strict": false,
+  "forceConsistentCasingInFileNames": true,
+  "noEmit": true,
+  "incremental": true,
+  "esModuleInterop": true,
+  "module": 99,
+  "moduleResolution": 2,
+  "resolveJsonModule": true,
+  "isolatedModules": true,
+  "jsx": 1,
+  "baseUrl": "/home/tony/Documents/nextjs/client/src",
+  "configFilePath": "/home/tony/Documents/nextjs/client/tsconfig.json"
+ }
+}
+Info 10   [15:20:03.787] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 11   [15:20:05.830] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 2043.3725580000319ms
+Info 12   [15:20:05.831] Project '/home/tony/Documents/nextjs/client/tsconfig.json' (Configured)
+Info 13   [15:20:05.831] 	Files (190)
+
+Info 14   [15:20:05.831] -----------------------------------------------
+Info 15   [15:20:05.846] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 16   [15:20:06.878] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1032.2031499999575ms
+Info 17   [15:20:06.878] Project '/dev/null/inferredProject1*' (Inferred)
+Info 18   [15:20:06.878] 	Files (107)
+
+Info 19   [15:20:06.878] -----------------------------------------------
+Info 20   [15:20:06.895] AutoImportProviderProject: found 2 root files in 2 dependencies in 15.684416000265628 ms
+Info 21   [15:20:06.896] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 22   [15:20:07.773] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 877.2129950001836ms
+Info 23   [15:20:07.773] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 24   [15:20:07.773] 	Files (139)
+
+Info 25   [15:20:07.773] -----------------------------------------------
+Info 26   [15:20:07.830] Search path: /home/tony/Documents/nextjs/client/src/components
+Info 27   [15:20:07.830] For info: /home/tony/Documents/nextjs/client/src/components/Testing.tsx :: Config file name: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 28   [15:20:08.845] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.log/ti-11685.log 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 29   [15:20:08.846] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.log/ti-11685.log
+Info 30   [15:20:08.846] Elapsed:: 1.4530740003101528ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.log/ti-11685.log 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 31   [15:20:11.138] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 32   [15:20:11.233] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true structureIsReused:: SafeModules Elapsed: 94.99775099987164ms
+Info 33   [15:20:11.233] Project '/dev/null/inferredProject1*' (Inferred)
+Info 34   [15:20:11.233] 	Files (102)
+
+Info 35   [15:20:11.233] -----------------------------------------------
+Info 36   [15:20:11.233] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 37   [15:20:11.233] 	Files (139)
+
+Info 38   [15:20:11.233] -----------------------------------------------
+Info 39   [15:20:14.341] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 40   [15:20:14.382] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: true structureIsReused:: SafeModules Elapsed: 40.870972000062466ms
+Info 41   [15:20:14.383] Different program with same set of files
+Info 42   [15:20:15.104] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 43   [15:20:15.114] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 10.348854000214487ms
+Info 44   [15:20:15.114] Different program with same set of files
+Info 45   [15:20:49.187] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/index.js 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 46   [15:20:49.190] Elapsed:: 2.8386809998191893ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/index.js 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 47   [15:20:49.191] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/index.tsx 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 48   [15:20:49.191] Elapsed:: 0.7323090001009405ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/index.tsx 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 49   [15:20:49.191] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/webpack.bc358b5a55d188e6.hot-update.js 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 50   [15:20:49.192] Elapsed:: 0.1257250001654029ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/webpack.bc358b5a55d188e6.hot-update.js 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 51   [15:20:49.192] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/bc358b5a55d188e6.webpack.hot-update.json 3:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 52   [15:20:49.192] Elapsed:: 0.10699199978262186ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/bc358b5a55d188e6.webpack.hot-update.json 3:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 53   [15:20:49.192] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/webpack.180866bbb8249b85.hot-update.js 4:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 54   [15:20:49.192] Elapsed:: 0.10885299975052476ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/webpack.180866bbb8249b85.hot-update.js 4:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 55   [15:20:49.192] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/180866bbb8249b85.webpack.hot-update.json 5:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 56   [15:20:49.192] Elapsed:: 0.1916579999960959ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/180866bbb8249b85.webpack.hot-update.json 5:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 57   [15:20:49.192] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/index.js 0:: WatchInfo: /home/tony/Documents/nextjs/client/src 1 undefined Project: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Failed Lookup Locations
+Info 58   [15:20:49.193] Elapsed:: 0.45555899990722537ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/index.js 0:: WatchInfo: /home/tony/Documents/nextjs/client/src 1 undefined Project: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Failed Lookup Locations
+Info 59   [15:20:49.193] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/index.tsx 1:: WatchInfo: /home/tony/Documents/nextjs/client/src 1 undefined Project: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Failed Lookup Locations
+Info 60   [15:20:49.193] Elapsed:: 0.10326100001111627ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/index.tsx 1:: WatchInfo: /home/tony/Documents/nextjs/client/src 1 undefined Project: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Failed Lookup Locations
+Info 61   [15:20:49.457] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 62   [15:20:49.531] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 73.77159100025892ms
+Info 63   [15:20:49.531] Project '/home/tony/Documents/nextjs/client/tsconfig.json' (Configured)
+Info 64   [15:20:49.531] 	Files (191)
+
+Info 65   [15:20:49.531] -----------------------------------------------
+Info 66   [15:20:49.795] FileWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/index.js 2:: WatchInfo: /home/tony/Documents/nextjs/client/src/pages/index.js 500 undefined WatchType: Closed Script info
+Info 67   [15:20:49.796] Elapsed:: 1.115902999881655ms FileWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/index.js 2:: WatchInfo: /home/tony/Documents/nextjs/client/src/pages/index.js 500 undefined WatchType: Closed Script info
+Info 68   [15:20:50.268] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/2.pack_ 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 69   [15:20:50.268] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/2.pack_
+Info 70   [15:20:50.268] Elapsed:: 0.07828200003132224ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/2.pack_ 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 71   [15:20:50.268] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 72   [15:20:50.268] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_
+Info 73   [15:20:50.268] Elapsed:: 0.038705000188201666ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 74   [15:20:50.268] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 75   [15:20:50.268] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack
+Info 76   [15:20:50.268] Elapsed:: 0.10091100027784705ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 77   [15:20:50.268] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack.old 3:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 78   [15:20:50.268] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack.old
+Info 79   [15:20:50.268] Elapsed:: 0.03734700009226799ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack.old 3:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 80   [15:20:50.268] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/2.pack_ 4:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 81   [15:20:50.268] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/2.pack_
+Info 82   [15:20:50.268] Elapsed:: 0.029418999794870615ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/2.pack_ 4:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 83   [15:20:50.268] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/2.pack 5:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 84   [15:20:50.268] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/2.pack
+Info 85   [15:20:50.268] Elapsed:: 0.029552000109106302ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/2.pack 5:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 86   [15:20:50.268] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 6:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 87   [15:20:50.268] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_
+Info 88   [15:20:50.268] Elapsed:: 0.03244399977847934ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 6:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 89   [15:20:50.268] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 7:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 90   [15:20:50.268] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack
+Info 91   [15:20:50.268] Elapsed:: 0.09140600031241775ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 7:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 92   [15:20:50.268] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/6.pack_ 8:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 93   [15:20:50.268] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/6.pack_
+Info 94   [15:20:50.268] Elapsed:: 0.03744000010192394ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/6.pack_ 8:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 95   [15:20:50.268] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/5.pack_ 9:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 96   [15:20:50.268] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/5.pack_
+Info 97   [15:20:50.268] Elapsed:: 0.02650200016796589ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/5.pack_ 9:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 98   [15:20:50.268] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 10:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 99   [15:20:50.269] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_
+Info 100  [15:20:50.269] Elapsed:: 0.025016000028699636ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 10:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 101  [15:20:50.269] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 11:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 102  [15:20:50.269] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack
+Info 103  [15:20:50.269] Elapsed:: 0.023554999846965075ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 11:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 104  [15:20:50.269] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack.old 12:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 105  [15:20:50.269] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack.old
+Info 106  [15:20:50.269] Elapsed:: 0.033774000126868486ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack.old 12:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 107  [15:20:50.269] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/6.pack_ 13:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 108  [15:20:50.269] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/6.pack_
+Info 109  [15:20:50.269] Elapsed:: 0.042419999837875366ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/6.pack_ 13:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 110  [15:20:50.269] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/6.pack 14:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 111  [15:20:50.269] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/6.pack
+Info 112  [15:20:50.269] Elapsed:: 0.1265099998563528ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/6.pack 14:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 113  [15:20:50.269] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/5.pack_ 15:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 114  [15:20:50.269] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/5.pack_
+Info 115  [15:20:50.269] Elapsed:: 0.03503499971702695ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/5.pack_ 15:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 116  [15:20:50.269] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/5.pack 16:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 117  [15:20:50.269] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/5.pack
+Info 118  [15:20:50.269] Elapsed:: 0.021701999939978123ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/5.pack 16:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 119  [15:20:50.269] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 17:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 120  [15:20:50.269] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_
+Info 121  [15:20:50.269] Elapsed:: 0.022840000223368406ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 17:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 122  [15:20:50.269] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 18:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 123  [15:20:50.269] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack
+Info 124  [15:20:50.269] Elapsed:: 0.01971099991351366ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 18:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 125  [15:20:51.693] Before ensureProjectForOpenFiles:
+Info 126  [15:20:51.693] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 127  [15:20:51.700] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: true structureIsReused:: Not Elapsed: 6.625504000112414ms
+Info 128  [15:20:51.700] Project '/dev/null/inferredProject1*' (Inferred)
+Info 129  [15:20:51.700] 	Files (0)
+
+Info 130  [15:20:51.701] -----------------------------------------------
+Info 131  [15:20:51.701] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 132  [15:20:51.701] 	Files (139)
+
+Info 133  [15:20:51.701] -----------------------------------------------
+Info 134  [15:20:51.701] After ensureProjectForOpenFiles:
+Info 135  [15:20:51.702] got projects updated in background, updating diagnostics for /home/tony/Documents/nextjs/client/src/components/Testing.tsx
+Info 136  [15:20:53.947] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/_app.js 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 137  [15:20:53.947] Elapsed:: 0.5449069999158382ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/_app.js 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 138  [15:20:53.947] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/_app.tsx 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 139  [15:20:53.948] Elapsed:: 0.4020779998973012ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/_app.tsx 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 140  [15:20:53.948] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/webpack.beb4b3c8a7be5b4f.hot-update.js 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 141  [15:20:53.949] Elapsed:: 0.6276719998568296ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/webpack.beb4b3c8a7be5b4f.hot-update.js 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 142  [15:20:53.949] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/beb4b3c8a7be5b4f.webpack.hot-update.json 3:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 143  [15:20:53.949] Elapsed:: 0.3242699997499585ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/beb4b3c8a7be5b4f.webpack.hot-update.json 3:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 144  [15:20:53.949] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/pages/_app.beb4b3c8a7be5b4f.hot-update.js 4:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 145  [15:20:53.950] Elapsed:: 0.254763999953866ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/pages/_app.beb4b3c8a7be5b4f.hot-update.js 4:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 146  [15:20:53.950] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/_app.js 0:: WatchInfo: /home/tony/Documents/nextjs/client/src 1 undefined Project: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Failed Lookup Locations
+Info 147  [15:20:53.950] Elapsed:: 0.20868699997663498ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/_app.js 0:: WatchInfo: /home/tony/Documents/nextjs/client/src 1 undefined Project: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Failed Lookup Locations
+Info 148  [15:20:53.950] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/_app.tsx 1:: WatchInfo: /home/tony/Documents/nextjs/client/src 1 undefined Project: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Failed Lookup Locations
+Info 149  [15:20:53.950] Elapsed:: 0.20443700021132827ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/_app.tsx 1:: WatchInfo: /home/tony/Documents/nextjs/client/src 1 undefined Project: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Failed Lookup Locations
+Info 150  [15:20:54.204] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 151  [15:20:54.274] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 3 structureChanged: true structureIsReused:: Not Elapsed: 69.71523599978536ms
+Info 152  [15:20:54.274] Project '/home/tony/Documents/nextjs/client/tsconfig.json' (Configured)
+Info 153  [15:20:54.274] 	Files (192)
+
+Info 154  [15:20:54.274] -----------------------------------------------
+Info 155  [15:20:55.054] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/7.pack_ 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 156  [15:20:55.054] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/7.pack_
+Info 157  [15:20:55.054] Elapsed:: 0.0708759999834001ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/7.pack_ 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 158  [15:20:55.054] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/2.pack_ 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 159  [15:20:55.054] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/2.pack_
+Info 160  [15:20:55.054] Elapsed:: 0.02817200031131506ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/2.pack_ 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 161  [15:20:55.054] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 162  [15:20:55.054] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_
+Info 163  [15:20:55.054] Elapsed:: 0.025516999885439873ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 164  [15:20:55.054] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 3:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 165  [15:20:55.054] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack
+Info 166  [15:20:55.054] Elapsed:: 0.024304000195115805ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 3:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 167  [15:20:55.054] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack.old 4:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 168  [15:20:55.054] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack.old
+Info 169  [15:20:55.054] Elapsed:: 0.03371499991044402ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack.old 4:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 170  [15:20:55.054] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/7.pack_ 5:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 171  [15:20:55.054] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/7.pack_
+Info 172  [15:20:55.054] Elapsed:: 0.040831999853253365ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/7.pack_ 5:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 173  [15:20:55.054] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/7.pack 6:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 174  [15:20:55.054] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/7.pack
+Info 175  [15:20:55.055] Elapsed:: 0.02497699996456504ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/7.pack 6:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 176  [15:20:55.055] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/2.pack_ 7:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 177  [15:20:55.055] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/2.pack_
+Info 178  [15:20:55.055] Elapsed:: 0.023436000104993582ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/2.pack_ 7:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 179  [15:20:55.055] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/2.pack 8:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 180  [15:20:55.055] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/2.pack
+Info 181  [15:20:55.055] Elapsed:: 0.02256899978965521ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/2.pack 8:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 182  [15:20:55.055] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 9:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 183  [15:20:55.055] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_
+Info 184  [15:20:55.055] Elapsed:: 0.027257999870926142ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 9:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 185  [15:20:55.055] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 10:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 186  [15:20:55.055] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack
+Info 187  [15:20:55.055] Elapsed:: 0.023800999857485294ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 10:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 188  [15:20:56.450] Before ensureProjectForOpenFiles:
+Info 189  [15:20:56.450] After ensureProjectForOpenFiles:
+Info 190  [15:20:56.450] got projects updated in background, updating diagnostics for /home/tony/Documents/nextjs/client/src/components/Testing.tsx
+Info 191  [15:20:59.144] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 192  [15:20:59.158] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 14.214081000071019ms
+Info 193  [15:20:59.158] Different program with same set of files
+Info 194  [15:21:04.330] Search path: /home/tony/Documents/nextjs/client/src/pages
+Info 195  [15:21:04.331] For info: /home/tony/Documents/nextjs/client/src/pages/index.js :: Config file name: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 196  [15:21:04.331] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 197  [15:21:04.352] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 20.839261999819428ms
+Info 198  [15:21:04.352] Different program with same set of files
+Info 199  [15:21:04.357] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 200  [15:21:04.432] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: true structureIsReused:: Not Elapsed: 75.35841900017112ms
+Info 201  [15:21:04.433] Project '/dev/null/inferredProject1*' (Inferred)
+Info 202  [15:21:04.433] 	Files (102)
+
+Info 203  [15:21:04.433] -----------------------------------------------
+Info 204  [15:21:04.433] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 205  [15:21:04.433] 	Files (139)
+
+Info 206  [15:21:04.433] -----------------------------------------------
+Info 207  [15:21:05.319] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/index.js 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 208  [15:21:05.320] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected output file: /home/tony/Documents/nextjs/client/src/pages/index.js
+Info 209  [15:21:05.320] Elapsed:: 0.5111679998226464ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/index.js 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 210  [15:21:05.320] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/index.js 0:: WatchInfo: /home/tony/Documents/nextjs/client/src 1 undefined Project: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Failed Lookup Locations
+Info 211  [15:21:05.320] Elapsed:: 0.13837500009685755ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/index.js 0:: WatchInfo: /home/tony/Documents/nextjs/client/src 1 undefined Project: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Failed Lookup Locations
+Info 212  [15:21:11.131] Search path: /home/tony/Documents/nextjs/client/src/pages
+Info 213  [15:21:11.132] For info: /home/tony/Documents/nextjs/client/src/pages/index.tsx :: Config file name: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 214  [15:21:11.132] `remove Project::
+Info 215  [15:21:11.132] Project '/dev/null/inferredProject1*' (Inferred)
+Info 216  [15:21:11.132] 	Files (102)
+
+Info 217  [15:21:11.132] -----------------------------------------------
+Info 218  [15:21:11.132] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 219  [15:21:11.132] 	Files (139)
+
+Info 220  [15:21:11.132] -----------------------------------------------
+Info 221  [15:21:17.226] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/index.js 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 222  [15:21:17.228] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected output file: /home/tony/Documents/nextjs/client/src/pages/index.js
+Info 223  [15:21:17.228] Elapsed:: 1.169481999706477ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/index.js 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 224  [15:21:17.228] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/index.js 0:: WatchInfo: /home/tony/Documents/nextjs/client/src 1 undefined Project: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Failed Lookup Locations
+Info 225  [15:21:17.228] Elapsed:: 0.22726200008764863ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/pages/index.js 0:: WatchInfo: /home/tony/Documents/nextjs/client/src 1 undefined Project: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Failed Lookup Locations
+Info 226  [15:21:21.072] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 227  [15:21:21.091] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 19.117904999759048ms
+Info 228  [15:21:21.092] Different program with same set of files
+Info 229  [15:21:23.411] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/webpack.e6d041b10b3d4e3a.hot-update.js 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 230  [15:21:23.412] Elapsed:: 0.8083970001898706ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/webpack.e6d041b10b3d4e3a.hot-update.js 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 231  [15:21:23.412] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/e6d041b10b3d4e3a.webpack.hot-update.json 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 232  [15:21:23.412] Elapsed:: 0.3492990001104772ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/e6d041b10b3d4e3a.webpack.hot-update.json 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 233  [15:21:23.413] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/pages/index.e6d041b10b3d4e3a.hot-update.js 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 234  [15:21:23.413] Elapsed:: 0.3277369998395443ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/pages/index.e6d041b10b3d4e3a.hot-update.js 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 235  [15:21:23.668] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 236  [15:21:23.692] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 23.715900000184774ms
+Info 237  [15:21:23.692] Different program with same set of files
+Info 238  [15:21:24.493] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack_ 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 239  [15:21:24.493] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack_
+Info 240  [15:21:24.493] Elapsed:: 0.1510569998063147ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack_ 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 241  [15:21:24.493] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/2.pack_ 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 242  [15:21:24.493] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/2.pack_
+Info 243  [15:21:24.493] Elapsed:: 0.08991899993270636ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/2.pack_ 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 244  [15:21:24.493] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/1.pack_ 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 245  [15:21:24.493] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/1.pack_
+Info 246  [15:21:24.493] Elapsed:: 0.08057900005951524ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/1.pack_ 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 247  [15:21:24.493] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 3:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 248  [15:21:24.493] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_
+Info 249  [15:21:24.493] Elapsed:: 0.07931500021368265ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 3:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 250  [15:21:24.493] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 4:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 251  [15:21:24.494] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack
+Info 252  [15:21:24.494] Elapsed:: 0.07784599997103214ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 4:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 253  [15:21:24.494] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack.old 5:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 254  [15:21:24.494] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack.old
+Info 255  [15:21:24.494] Elapsed:: 0.0769429998472333ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack.old 5:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 256  [15:21:24.494] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack_ 6:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 257  [15:21:24.494] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack_
+Info 258  [15:21:24.494] Elapsed:: 0.07281799986958504ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack_ 6:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 259  [15:21:24.494] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack 7:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 260  [15:21:24.494] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack
+Info 261  [15:21:24.494] Elapsed:: 0.08183699985966086ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack 7:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 262  [15:21:24.494] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/2.pack_ 8:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 263  [15:21:24.494] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/2.pack_
+Info 264  [15:21:24.494] Elapsed:: 0.0837469999678433ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/2.pack_ 8:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 265  [15:21:24.494] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/2.pack 9:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 266  [15:21:24.494] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/2.pack
+Info 267  [15:21:24.494] Elapsed:: 0.07245399989187717ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/2.pack 9:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 268  [15:21:24.494] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/1.pack_ 10:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 269  [15:21:24.494] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/1.pack_
+Info 270  [15:21:24.494] Elapsed:: 0.07045200001448393ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/1.pack_ 10:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 271  [15:21:24.495] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/1.pack 11:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 272  [15:21:24.495] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/1.pack
+Info 273  [15:21:24.495] Elapsed:: 0.07219599978998303ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/1.pack 11:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 274  [15:21:24.495] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 12:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 275  [15:21:24.495] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_
+Info 276  [15:21:24.495] Elapsed:: 0.07218499993905425ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 12:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 277  [15:21:24.495] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 13:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 278  [15:21:24.495] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack
+Info 279  [15:21:24.495] Elapsed:: 0.08343799971044064ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 13:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 280  [15:21:25.914] Before ensureProjectForOpenFiles:
+Info 281  [15:21:25.914] After ensureProjectForOpenFiles:
+Info 282  [15:21:25.915] got projects updated in background, updating diagnostics for /home/tony/Documents/nextjs/client/src/pages/index.tsx
+Info 283  [15:21:26.915] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 284  [15:21:26.934] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 18.78115100041032ms
+Info 285  [15:21:26.934] Different program with same set of files
+Info 286  [15:21:29.254] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 287  [15:21:29.295] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 9 structureChanged: true structureIsReused:: SafeModules Elapsed: 41.129728000145406ms
+Info 288  [15:21:29.296] Different program with same set of files
+Info 289  [15:21:31.443] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/pages/index.af1ac1083e40bce1.hot-update.js 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 290  [15:21:31.444] Elapsed:: 0.5362040000036359ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/pages/index.af1ac1083e40bce1.hot-update.js 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 291  [15:21:31.444] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/webpack.af1ac1083e40bce1.hot-update.js 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 292  [15:21:31.444] Elapsed:: 0.6463480000384152ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/webpack.af1ac1083e40bce1.hot-update.js 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 293  [15:21:31.445] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/af1ac1083e40bce1.webpack.hot-update.json 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 294  [15:21:31.445] Elapsed:: 0.2745769997127354ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/af1ac1083e40bce1.webpack.hot-update.json 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 295  [15:21:31.698] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 296  [15:21:31.699] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 10 structureChanged: false structureIsReused:: SafeModules Elapsed: 0.9656770001165569ms
+Info 297  [15:21:33.946] Before ensureProjectForOpenFiles:
+Info 298  [15:21:33.946] After ensureProjectForOpenFiles:
+Info 299  [15:21:33.946] got projects updated in background, updating diagnostics for /home/tony/Documents/nextjs/client/src/pages/index.tsx
+Info 300  [15:21:42.388] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 301  [15:21:42.405] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 16.630801000166684ms
+Info 302  [15:21:42.405] Different program with same set of files
+Info 303  [15:21:43.642] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 304  [15:21:43.652] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 9.504456999711692ms
+Info 305  [15:21:43.652] Different program with same set of files
+Info 306  [15:21:43.654] getCompletionData: Get current token: 0.03171500004827976
+Info 307  [15:21:43.654] getCompletionData: Is inside comment: 0.00810300000011921
+Info 308  [15:21:43.654] getCompletionData: Get previous token: 0.0870079998858273
+Info 309  [15:21:43.655] getCompletionsAtPosition: isCompletionListBlocker: 0.3203109996393323
+Info 310  [15:21:43.655] Returning an empty list because completion was requested in an invalid position.
+Info 311  [15:21:43.692] getCompletionData: Get current token: 0.013489999808371067
+Info 312  [15:21:43.692] getCompletionData: Is inside comment: 0.004522999748587608
+Info 313  [15:21:43.692] getCompletionData: Get previous token: 0.037381000351160765
+Info 314  [15:21:43.692] getCompletionsAtPosition: isCompletionListBlocker: 0.019845000002533197
+Info 315  [15:21:43.692] Returning an empty list because completion was requested in an invalid position.
+Info 316  [15:21:43.715] getCompletionData: Get current token: 0.013218000065535307
+Info 317  [15:21:43.715] getCompletionData: Is inside comment: 0.00521400012075901
+Info 318  [15:21:43.715] getCompletionData: Get previous token: 0.09627400012686849
+Info 319  [15:21:43.715] getCompletionsAtPosition: isCompletionListBlocker: 0.028818000108003616
+Info 320  [15:21:43.715] Returning an empty list because completion was requested in an invalid position.
+Info 321  [15:21:43.738] getCompletionData: Get current token: 0.01792600005865097
+Info 322  [15:21:43.738] getCompletionData: Is inside comment: 0.0061439997516572475
+Info 323  [15:21:43.738] getCompletionData: Get previous token: 0.047691999934613705
+Info 324  [15:21:43.738] getCompletionsAtPosition: isCompletionListBlocker: 0.015383000019937754
+Info 325  [15:21:43.738] Returning an empty list because completion was requested in an invalid position.
+Info 326  [15:21:44.467] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 327  [15:21:44.477] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 9.601586000062525ms
+Info 328  [15:21:44.477] Different program with same set of files
+Info 329  [15:21:44.478] getCompletionData: Get current token: 0.021991999819874763
+Info 330  [15:21:44.478] getCompletionData: Is inside comment: 0.009068000130355358
+Info 331  [15:21:44.478] getCompletionData: Get previous token: 0.046234000008553267
+Info 332  [15:21:44.478] getCompletionsAtPosition: isCompletionListBlocker: 0.015273999888449907
+Info 333  [15:21:44.478] Returning an empty list because completion was requested in an invalid position.
+Info 334  [15:21:44.564] getCompletionData: Get current token: 0.03782700002193451
+Info 335  [15:21:44.564] getCompletionData: Is inside comment: 0.011304999701678753
+Info 336  [15:21:44.564] getCompletionData: Get previous token: 0.06971399998292327
+Info 337  [15:21:44.564] getCompletionsAtPosition: isCompletionListBlocker: 0.030080999713391066
+Info 338  [15:21:44.564] Returning an empty list because completion was requested in an invalid position.
+Info 339  [15:21:44.565] getCompletionData: Get current token: 0.02824800042435527
+Info 340  [15:21:44.565] getCompletionData: Is inside comment: 0.011468000244349241
+Info 341  [15:21:44.565] getCompletionData: Get previous token: 0.08238600008189678
+Info 342  [15:21:44.565] getCompletionsAtPosition: isCompletionListBlocker: 0.024179999716579914
+Info 343  [15:21:44.565] Returning an empty list because completion was requested in an invalid position.
+Info 344  [15:21:44.567] getCompletionData: Get current token: 0.15389000019058585
+Info 345  [15:21:44.568] getCompletionData: Is inside comment: 0.1226570000872016
+Info 346  [15:21:44.569] getCompletionData: Get previous token: 0.29509499995037913
+Info 347  [15:21:44.569] getCompletionsAtPosition: isCompletionListBlocker: 0.06801100028678775
+Info 348  [15:21:44.570] Returning an empty list because completion was requested in an invalid position.
+Info 349  [15:21:44.572] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 350  [15:21:44.594] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 21.262096000369638ms
+Info 351  [15:21:44.594] Different program with same set of files
+Info 352  [15:21:44.702] getCompletionData: Get current token: 0.03426899993792176
+Info 353  [15:21:44.702] getCompletionData: Is inside comment: 0.00880899978801608
+Info 354  [15:21:44.702] getCompletionData: Get previous token: 0.07086100010201335
+Info 355  [15:21:44.702] getCompletionsAtPosition: isCompletionListBlocker: 0.02494499972090125
+Info 356  [15:21:44.702] Returning an empty list because completion was requested in an invalid position.
+Info 357  [15:21:44.711] getCompletionData: Get current token: 0.02467900002375245
+Info 358  [15:21:44.711] getCompletionData: Is inside comment: 0.009072999935597181
+Info 359  [15:21:44.711] getCompletionData: Get previous token: 0.05883500026538968
+Info 360  [15:21:44.711] getCompletionsAtPosition: isCompletionListBlocker: 0.020106999669224024
+Info 361  [15:21:44.711] Returning an empty list because completion was requested in an invalid position.
+Info 362  [15:21:44.720] getCompletionData: Get current token: 0.02808499988168478
+Info 363  [15:21:44.720] getCompletionData: Is inside comment: 0.018188000191003084
+Info 364  [15:21:44.720] getCompletionData: Get previous token: 0.057988000102341175
+Info 365  [15:21:44.720] getCompletionsAtPosition: isCompletionListBlocker: 0.019808999728411436
+Info 366  [15:21:44.720] Returning an empty list because completion was requested in an invalid position.
+Info 367  [15:21:44.742] getCompletionData: Get current token: 0.01693599997088313
+Info 368  [15:21:44.742] getCompletionData: Is inside comment: 0.006012999918311834
+Info 369  [15:21:44.742] getCompletionData: Get previous token: 0.03360299998894334
+Info 370  [15:21:44.742] getCompletionsAtPosition: isCompletionListBlocker: 0.01734000025317073
+Info 371  [15:21:44.742] Returning an empty list because completion was requested in an invalid position.
+Info 372  [15:21:44.946] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 373  [15:21:44.972] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 25.161024999804795ms
+Info 374  [15:21:44.972] Different program with same set of files
+Info 375  [15:21:44.974] getCompletionData: Get current token: 0.07939100032672286
+Info 376  [15:21:44.974] getCompletionData: Is inside comment: 0.019678999669849873
+Info 377  [15:21:44.975] getCompletionData: Get previous token: 0.1756219998933375
+Info 378  [15:21:44.975] getCompletionsAtPosition: isCompletionListBlocker: 0.045080999843776226
+Info 379  [15:21:44.975] Returning an empty list because completion was requested in an invalid position.
+Info 380  [15:21:45.026] getCompletionData: Get current token: 0.01714300038293004
+Info 381  [15:21:45.026] getCompletionData: Is inside comment: 0.008993000257760286
+Info 382  [15:21:45.026] getCompletionData: Get previous token: 0.03452800028026104
+Info 383  [15:21:45.026] getCompletionsAtPosition: isCompletionListBlocker: 0.015447999816387892
+Info 384  [15:21:45.026] Returning an empty list because completion was requested in an invalid position.
+Info 385  [15:21:45.047] getCompletionData: Get current token: 0.04024000000208616
+Info 386  [15:21:45.047] getCompletionData: Is inside comment: 0.008334000129252672
+Info 387  [15:21:45.047] getCompletionData: Get previous token: 0.05375099973753095
+Info 388  [15:21:45.047] getCompletionsAtPosition: isCompletionListBlocker: 0.018106000032275915
+Info 389  [15:21:45.047] Returning an empty list because completion was requested in an invalid position.
+Info 390  [15:21:45.070] getCompletionData: Get current token: 0.030124000273644924
+Info 391  [15:21:45.070] getCompletionData: Is inside comment: 0.009277000091969967
+Info 392  [15:21:45.070] getCompletionData: Get previous token: 0.06593899987637997
+Info 393  [15:21:45.070] getCompletionsAtPosition: isCompletionListBlocker: 0.020579999778419733
+Info 394  [15:21:45.070] Returning an empty list because completion was requested in an invalid position.
+Info 395  [15:21:45.560] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 396  [15:21:45.577] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 16 structureChanged: false structureIsReused:: Completely Elapsed: 16.758920000400394ms
+Info 397  [15:21:45.577] Different program with same set of files
+Info 398  [15:21:45.578] getCompletionData: Get current token: 0.1169500001706183
+Info 399  [15:21:45.578] getCompletionData: Is inside comment: 0.0357889998704195
+Info 400  [15:21:45.579] getCompletionData: Get previous token: 0.2217259998433292
+Info 401  [15:21:45.579] getCompletionsAtPosition: isCompletionListBlocker: 0.045901999808847904
+Info 402  [15:21:45.579] Returning an empty list because completion was requested in an invalid position.
+Info 403  [15:21:45.617] getCompletionData: Get current token: 0.021295000333338976
+Info 404  [15:21:45.617] getCompletionData: Is inside comment: 0.006111000198870897
+Info 405  [15:21:45.617] getCompletionData: Get previous token: 0.04525600001215935
+Info 406  [15:21:45.617] getCompletionsAtPosition: isCompletionListBlocker: 0.016434999648481607
+Info 407  [15:21:45.617] Returning an empty list because completion was requested in an invalid position.
+Info 408  [15:21:45.628] getCompletionData: Get current token: 0.03143800003454089
+Info 409  [15:21:45.628] getCompletionData: Is inside comment: 0.0076049999333918095
+Info 410  [15:21:45.628] getCompletionData: Get previous token: 0.05782799981534481
+Info 411  [15:21:45.628] getCompletionsAtPosition: isCompletionListBlocker: 0.018908000085502863
+Info 412  [15:21:45.628] Returning an empty list because completion was requested in an invalid position.
+Info 413  [15:21:45.651] getCompletionData: Get current token: 0.026600000448524952
+Info 414  [15:21:45.651] getCompletionData: Is inside comment: 0.00687299994751811
+Info 415  [15:21:45.651] getCompletionData: Get previous token: 0.048530000261962414
+Info 416  [15:21:45.651] getCompletionsAtPosition: isCompletionListBlocker: 0.016952999867498875
+Info 417  [15:21:45.651] Returning an empty list because completion was requested in an invalid position.
+Info 418  [15:21:45.903] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 419  [15:21:45.939] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 35.28939999965951ms
+Info 420  [15:21:45.939] Different program with same set of files
+Info 421  [15:21:45.941] getCompletionData: Get current token: 0.11955599999055266
+Info 422  [15:21:45.941] getCompletionData: Is inside comment: 0.027042000088840723
+Info 423  [15:21:45.941] getCompletionData: Get previous token: 0.28132699988782406
+Info 424  [15:21:45.942] getCompletionsAtPosition: isCompletionListBlocker: 0.06400000024586916
+Info 425  [15:21:45.942] Returning an empty list because completion was requested in an invalid position.
+Info 426  [15:21:45.943] getCompletionData: Get current token: 0.09686900023370981
+Info 427  [15:21:45.943] getCompletionData: Is inside comment: 0.02660999959334731
+Info 428  [15:21:45.944] getCompletionData: Get previous token: 0.19689600029960275
+Info 429  [15:21:45.945] getCompletionsAtPosition: isCompletionListBlocker: 0.6982970000244677
+Info 430  [15:21:45.945] Returning an empty list because completion was requested in an invalid position.
+Info 431  [15:21:45.946] getCompletionData: Get current token: 0.09431299986317754
+Info 432  [15:21:45.946] getCompletionData: Is inside comment: 0.02742299996316433
+Info 433  [15:21:45.946] getCompletionData: Get previous token: 0.22284700023010373
+Info 434  [15:21:45.947] getCompletionsAtPosition: isCompletionListBlocker: 0.08069299999624491
+Info 435  [15:21:45.947] Returning an empty list because completion was requested in an invalid position.
+Info 436  [15:21:45.948] getCompletionData: Get current token: 0.09737600013613701
+Info 437  [15:21:45.948] getCompletionData: Is inside comment: 0.024580000434070826
+Info 438  [15:21:45.948] getCompletionData: Get previous token: 0.18762800004333258
+Info 439  [15:21:45.949] getCompletionsAtPosition: isCompletionListBlocker: 0.051582999993115664
+Info 440  [15:21:45.949] Returning an empty list because completion was requested in an invalid position.
+Info 441  [15:21:46.474] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 442  [15:21:46.502] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 28.25586099969223ms
+Info 443  [15:21:46.503] Different program with same set of files
+Info 444  [15:21:46.506] getCompletionData: Get current token: 0.10083299968391657
+Info 445  [15:21:46.506] getCompletionData: Is inside comment: 0.023881999775767326
+Info 446  [15:21:46.507] getCompletionData: Get previous token: 0.2100760000757873
+Info 447  [15:21:46.507] getCompletionsAtPosition: isCompletionListBlocker: 0.07773800007998943
+Info 448  [15:21:46.507] Returning an empty list because completion was requested in an invalid position.
+Info 449  [15:21:46.585] getCompletionData: Get current token: 0.0259080003015697
+Info 450  [15:21:46.585] getCompletionData: Is inside comment: 0.0066200001165270805
+Info 451  [15:21:46.585] getCompletionData: Get previous token: 0.05060099996626377
+Info 452  [15:21:46.585] getCompletionsAtPosition: isCompletionListBlocker: 0.034133000299334526
+Info 453  [15:21:46.585] Returning an empty list because completion was requested in an invalid position.
+Info 454  [15:21:46.586] getCompletionData: Get current token: 0.022398999892175198
+Info 455  [15:21:46.586] getCompletionData: Is inside comment: 0.005650999955832958
+Info 456  [15:21:46.586] getCompletionData: Get previous token: 0.04639599984511733
+Info 457  [15:21:46.586] getCompletionsAtPosition: isCompletionListBlocker: 0.016607000026851892
+Info 458  [15:21:46.586] Returning an empty list because completion was requested in an invalid position.
+Info 459  [15:21:46.587] getCompletionData: Get current token: 0.024141999892890453
+Info 460  [15:21:46.587] getCompletionData: Is inside comment: 0.007350000087171793
+Info 461  [15:21:46.587] getCompletionData: Get previous token: 0.049564999993890524
+Info 462  [15:21:46.587] getCompletionsAtPosition: isCompletionListBlocker: 0.015201999805867672
+Info 463  [15:21:46.587] Returning an empty list because completion was requested in an invalid position.
+Info 464  [15:21:48.748] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/pages/index.bf584a389cccbe15.hot-update.js 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 465  [15:21:48.749] Elapsed:: 0.738803000189364ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/pages/index.bf584a389cccbe15.hot-update.js 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 466  [15:21:48.749] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/webpack.bf584a389cccbe15.hot-update.js 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 467  [15:21:48.750] Elapsed:: 0.48991800006479025ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/webpack.bf584a389cccbe15.hot-update.js 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 468  [15:21:48.750] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/bf584a389cccbe15.webpack.hot-update.json 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 469  [15:21:48.750] Elapsed:: 0.43617000011727214ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/bf584a389cccbe15.webpack.hot-update.json 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 470  [15:21:49.006] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 471  [15:21:49.007] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 1.3400849997997284ms
+Info 472  [15:21:50.189] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/4.pack_ 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 473  [15:21:50.189] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/4.pack_
+Info 474  [15:21:50.189] Elapsed:: 0.16534699965268373ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/4.pack_ 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 475  [15:21:50.189] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack_ 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 476  [15:21:50.189] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack_
+Info 477  [15:21:50.189] Elapsed:: 0.05328699992969632ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack_ 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 478  [15:21:50.189] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 479  [15:21:50.189] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_
+Info 480  [15:21:50.189] Elapsed:: 0.04393000015988946ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 481  [15:21:50.189] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 3:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 482  [15:21:50.189] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack
+Info 483  [15:21:50.189] Elapsed:: 0.044179999735206366ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 3:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 484  [15:21:50.189] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack.old 4:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 485  [15:21:50.189] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack.old
+Info 486  [15:21:50.189] Elapsed:: 0.04211900010704994ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack.old 4:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 487  [15:21:50.189] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/4.pack_ 5:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 488  [15:21:50.190] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/4.pack_
+Info 489  [15:21:50.190] Elapsed:: 0.04098099982365966ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/4.pack_ 5:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 490  [15:21:50.190] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/4.pack 6:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 491  [15:21:50.190] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/4.pack
+Info 492  [15:21:50.190] Elapsed:: 0.039506999775767326ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/4.pack 6:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 493  [15:21:50.190] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack_ 7:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 494  [15:21:50.190] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack_
+Info 495  [15:21:50.190] Elapsed:: 0.039003000129014254ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack_ 7:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 496  [15:21:50.190] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack 8:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 497  [15:21:50.190] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack
+Info 498  [15:21:50.190] Elapsed:: 0.040011000353842974ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack 8:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 499  [15:21:50.190] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 9:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 500  [15:21:50.190] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_
+Info 501  [15:21:50.190] Elapsed:: 0.0618619997985661ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 9:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 502  [15:21:50.190] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 10:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 503  [15:21:50.190] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack
+Info 504  [15:21:50.190] Elapsed:: 0.0478639998473227ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 10:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 505  [15:21:50.190] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/8.pack_ 11:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 506  [15:21:50.190] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/8.pack_
+Info 507  [15:21:50.190] Elapsed:: 0.04693200020119548ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/8.pack_ 11:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 508  [15:21:50.190] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/6.pack_ 12:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 509  [15:21:50.190] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/6.pack_
+Info 510  [15:21:50.190] Elapsed:: 0.047621000092476606ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/6.pack_ 12:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 511  [15:21:50.190] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 13:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 512  [15:21:50.190] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_
+Info 513  [15:21:50.190] Elapsed:: 0.0482999999076128ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 13:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 514  [15:21:50.190] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 14:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 515  [15:21:50.190] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack
+Info 516  [15:21:50.190] Elapsed:: 0.04817200032994151ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 14:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 517  [15:21:50.190] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack.old 15:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 518  [15:21:50.190] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack.old
+Info 519  [15:21:50.190] Elapsed:: 0.047515000216662884ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack.old 15:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 520  [15:21:50.190] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/8.pack_ 16:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 521  [15:21:50.191] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/8.pack_
+Info 522  [15:21:50.191] Elapsed:: 0.04746000003069639ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/8.pack_ 16:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 523  [15:21:50.191] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/8.pack 17:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 524  [15:21:50.191] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/8.pack
+Info 525  [15:21:50.191] Elapsed:: 0.04686800017952919ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/8.pack 17:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 526  [15:21:50.191] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/6.pack_ 18:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 527  [15:21:50.191] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/6.pack_
+Info 528  [15:21:50.191] Elapsed:: 0.04783299984410405ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/6.pack_ 18:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 529  [15:21:50.191] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/6.pack 19:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 530  [15:21:50.191] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/6.pack
+Info 531  [15:21:50.191] Elapsed:: 0.048567000310868025ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/6.pack 19:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 532  [15:21:50.191] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 20:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 533  [15:21:50.191] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_
+Info 534  [15:21:50.191] Elapsed:: 0.047489000018686056ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 20:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 535  [15:21:50.191] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 21:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 536  [15:21:50.191] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack
+Info 537  [15:21:50.191] Elapsed:: 0.047344999853521585ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 21:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 538  [15:21:51.251] Before ensureProjectForOpenFiles:
+Info 539  [15:21:51.251] After ensureProjectForOpenFiles:
+Info 540  [15:21:51.251] got projects updated in background, updating diagnostics for /home/tony/Documents/nextjs/client/src/pages/index.tsx
+Info 541  [15:21:53.706] Search path: /home/tony/Documents/nextjs/client/src/pages
+Info 542  [15:21:53.706] For info: /home/tony/Documents/nextjs/client/src/pages/_app.tsx :: Config file name: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 543  [15:21:55.912] Format host information updated
+Info 544  [15:21:56.112] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 545  [15:21:56.196] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 20 structureChanged: true structureIsReused:: SafeModules Elapsed: 83.2705769999884ms
+Info 546  [15:21:56.196] Different program with same set of files
+Info 547  [15:21:57.111] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 548  [15:21:57.125] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 21 structureChanged: false structureIsReused:: Completely Elapsed: 13.831539999693632ms
+Info 549  [15:21:57.125] Different program with same set of files
+Info 550  [15:21:58.075] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/pages/_app.a1032c25eaf87e50.hot-update.js 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 551  [15:21:58.076] Elapsed:: 0.4082969999872148ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/pages/_app.a1032c25eaf87e50.hot-update.js 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 552  [15:21:58.076] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/webpack.a1032c25eaf87e50.hot-update.js 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 553  [15:21:58.076] Elapsed:: 0.2688440000638366ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/webpack.a1032c25eaf87e50.hot-update.js 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 554  [15:21:58.076] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/a1032c25eaf87e50.webpack.hot-update.json 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 555  [15:21:58.076] Elapsed:: 0.22733499994501472ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/a1032c25eaf87e50.webpack.hot-update.json 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 556  [15:21:58.327] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 557  [15:21:58.328] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 22 structureChanged: false structureIsReused:: Completely Elapsed: 0.40659699961543083ms
+Info 558  [15:21:59.202] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/5.pack_ 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 559  [15:21:59.202] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/5.pack_
+Info 560  [15:21:59.203] Elapsed:: 0.4862310001626611ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/5.pack_ 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 561  [15:21:59.203] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/4.pack_ 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 562  [15:21:59.203] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/4.pack_
+Info 563  [15:21:59.203] Elapsed:: 0.3830180000513792ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/4.pack_ 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 564  [15:21:59.204] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack_ 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 565  [15:21:59.205] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack_
+Info 566  [15:21:59.205] Elapsed:: 0.7078440003097057ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack_ 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 567  [15:21:59.205] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 3:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 568  [15:21:59.206] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_
+Info 569  [15:21:59.206] Elapsed:: 0.08197499997913837ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 3:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 570  [15:21:59.206] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 4:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 571  [15:21:59.206] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack
+Info 572  [15:21:59.206] Elapsed:: 0.03944699978455901ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 4:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 573  [15:21:59.206] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack.old 5:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 574  [15:21:59.206] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack.old
+Info 575  [15:21:59.206] Elapsed:: 0.04786900011822581ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack.old 5:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 576  [15:21:59.206] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/5.pack_ 6:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 577  [15:21:59.206] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/5.pack_
+Info 578  [15:21:59.206] Elapsed:: 0.1099900002591312ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/5.pack_ 6:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 579  [15:21:59.206] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/5.pack 7:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 580  [15:21:59.206] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/5.pack
+Info 581  [15:21:59.206] Elapsed:: 0.2843659999780357ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/5.pack 7:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 582  [15:21:59.207] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack_ 8:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 583  [15:21:59.207] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack_
+Info 584  [15:21:59.207] Elapsed:: 0.16577199986204505ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack_ 8:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 585  [15:21:59.207] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack 9:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 586  [15:21:59.207] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack
+Info 587  [15:21:59.207] Elapsed:: 0.11703300010412931ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/3.pack 9:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 588  [15:21:59.207] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/4.pack_ 10:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 589  [15:21:59.207] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/4.pack_
+Info 590  [15:21:59.207] Elapsed:: 0.08799599995836616ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/4.pack_ 10:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 591  [15:21:59.207] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/4.pack 11:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 592  [15:21:59.208] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/4.pack
+Info 593  [15:21:59.208] Elapsed:: 0.13903099996969104ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/4.pack 11:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 594  [15:21:59.208] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 12:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 595  [15:21:59.208] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_
+Info 596  [15:21:59.208] Elapsed:: 0.055970999877899885ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 12:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 597  [15:21:59.208] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 13:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 598  [15:21:59.208] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack
+Info 599  [15:21:59.208] Elapsed:: 0.04047900019213557ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 13:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 600  [15:21:59.208] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/9.pack_ 14:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 601  [15:21:59.208] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/9.pack_
+Info 602  [15:21:59.208] Elapsed:: 0.12986200023442507ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/9.pack_ 14:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 603  [15:21:59.208] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/7.pack_ 15:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 604  [15:21:59.208] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/7.pack_
+Info 605  [15:21:59.208] Elapsed:: 0.10514699993655086ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/7.pack_ 15:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 606  [15:21:59.208] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 16:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 607  [15:21:59.209] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_
+Info 608  [15:21:59.209] Elapsed:: 0.13219999987632036ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 16:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 609  [15:21:59.209] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 17:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 610  [15:21:59.209] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack
+Info 611  [15:21:59.209] Elapsed:: 0.07940199971199036ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 17:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 612  [15:21:59.209] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack.old 18:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 613  [15:21:59.209] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack.old
+Info 614  [15:21:59.209] Elapsed:: 0.03518899995833635ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack.old 18:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 615  [15:21:59.209] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/9.pack_ 19:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 616  [15:21:59.209] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/9.pack_
+Info 617  [15:21:59.209] Elapsed:: 0.030959999654442072ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/9.pack_ 19:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 618  [15:21:59.209] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/9.pack 20:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 619  [15:21:59.209] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/9.pack
+Info 620  [15:21:59.209] Elapsed:: 0.02714599994942546ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/9.pack 20:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 621  [15:21:59.209] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/7.pack_ 21:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 622  [15:21:59.209] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/7.pack_
+Info 623  [15:21:59.209] Elapsed:: 0.025256999768316746ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/7.pack_ 21:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 624  [15:21:59.209] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/7.pack 22:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 625  [15:21:59.209] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/7.pack
+Info 626  [15:21:59.209] Elapsed:: 0.023744000121951103ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/7.pack 22:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 627  [15:21:59.209] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 23:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 628  [15:21:59.209] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_
+Info 629  [15:21:59.209] Elapsed:: 0.038327999878674746ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 23:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 630  [15:21:59.209] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 24:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 631  [15:21:59.209] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack
+Info 632  [15:21:59.209] Elapsed:: 0.02506200037896633ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 24:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 633  [15:22:00.576] Before ensureProjectForOpenFiles:
+Info 634  [15:22:00.577] After ensureProjectForOpenFiles:
+Info 635  [15:22:00.577] got projects updated in background, updating diagnostics for /home/tony/Documents/nextjs/client/src/pages/index.tsx,/home/tony/Documents/nextjs/client/src/pages/_app.tsx
+Info 636  [15:22:00.611] Format host information updated
+Info 637  [15:22:00.812] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 638  [15:22:00.862] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 23 structureChanged: true structureIsReused:: SafeModules Elapsed: 50.01264499966055ms
+Info 639  [15:22:00.862] Different program with same set of files
+Info 640  [15:22:01.947] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 641  [15:22:01.953] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 24 structureChanged: false structureIsReused:: Completely Elapsed: 5.465585999656469ms
+Info 642  [15:22:01.953] Different program with same set of files
+Info 643  [15:22:02.959] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/pages/_app.4a60238779a34d3b.hot-update.js 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 644  [15:22:02.960] Elapsed:: 0.3855969998985529ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/pages/_app.4a60238779a34d3b.hot-update.js 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 645  [15:22:02.960] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/webpack.4a60238779a34d3b.hot-update.js 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 646  [15:22:02.960] Elapsed:: 0.2641149996779859ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/webpack.4a60238779a34d3b.hot-update.js 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 647  [15:22:02.960] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/4a60238779a34d3b.webpack.hot-update.json 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 648  [15:22:02.961] Elapsed:: 0.2247350001707673ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/static/webpack/4a60238779a34d3b.webpack.hot-update.json 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 649  [15:22:03.213] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 650  [15:22:03.214] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 25 structureChanged: false structureIsReused:: Completely Elapsed: 1.3629209999926388ms
+Info 651  [15:22:04.073] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/5.pack_ 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 652  [15:22:04.073] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/5.pack_
+Info 653  [15:22:04.074] Elapsed:: 0.15035900007933378ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/5.pack_ 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 654  [15:22:04.074] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/7.pack_ 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 655  [15:22:04.074] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/7.pack_
+Info 656  [15:22:04.074] Elapsed:: 0.08502799971029162ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/7.pack_ 1:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 657  [15:22:04.074] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/0.pack_ 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 658  [15:22:04.074] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/0.pack_
+Info 659  [15:22:04.074] Elapsed:: 0.06339999986812472ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/0.pack_ 2:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 660  [15:22:04.074] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 3:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 661  [15:22:04.074] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_
+Info 662  [15:22:04.074] Elapsed:: 0.0667659998871386ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 3:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 663  [15:22:04.074] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 4:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 664  [15:22:04.074] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack
+Info 665  [15:22:04.074] Elapsed:: 0.05541400006040931ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 4:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 666  [15:22:04.074] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack.old 5:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 667  [15:22:04.074] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack.old
+Info 668  [15:22:04.074] Elapsed:: 0.05454799998551607ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack.old 5:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 669  [15:22:04.074] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/0.pack_ 6:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 670  [15:22:04.074] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/0.pack_
+Info 671  [15:22:04.074] Elapsed:: 0.06345399981364608ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/0.pack_ 6:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 672  [15:22:04.074] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/0.pack 7:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 673  [15:22:04.074] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/0.pack
+Info 674  [15:22:04.074] Elapsed:: 0.05461699981242418ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/0.pack 7:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 675  [15:22:04.074] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/5.pack_ 8:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 676  [15:22:04.074] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/5.pack_
+Info 677  [15:22:04.075] Elapsed:: 0.05227300012484193ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/5.pack_ 8:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 678  [15:22:04.075] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/5.pack 9:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 679  [15:22:04.075] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/5.pack
+Info 680  [15:22:04.075] Elapsed:: 0.053687999956309795ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/5.pack 9:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 681  [15:22:04.075] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/7.pack_ 10:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 682  [15:22:04.075] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/7.pack_
+Info 683  [15:22:04.075] Elapsed:: 0.054211999755352736ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/7.pack_ 10:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 684  [15:22:04.075] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/7.pack 11:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 685  [15:22:04.075] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/7.pack
+Info 686  [15:22:04.075] Elapsed:: 0.05806600023061037ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/7.pack 11:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 687  [15:22:04.075] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 12:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 688  [15:22:04.075] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_
+Info 689  [15:22:04.075] Elapsed:: 0.04021199978888035ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack_ 12:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 690  [15:22:04.075] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 13:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 691  [15:22:04.075] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack
+Info 692  [15:22:04.075] Elapsed:: 0.03947799978777766ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/client-development/index.pack 13:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 693  [15:22:04.075] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/9.pack_ 14:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 694  [15:22:04.075] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/9.pack_
+Info 695  [15:22:04.075] Elapsed:: 0.03981800004839897ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/9.pack_ 14:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 696  [15:22:04.075] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 15:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 697  [15:22:04.075] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_
+Info 698  [15:22:04.075] Elapsed:: 0.0665250001475215ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 15:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 699  [15:22:04.075] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 16:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 700  [15:22:04.075] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack
+Info 701  [15:22:04.075] Elapsed:: 0.04202499985694885ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 16:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 702  [15:22:04.075] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack.old 17:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 703  [15:22:04.075] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack.old
+Info 704  [15:22:04.075] Elapsed:: 0.03926400002092123ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack.old 17:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 705  [15:22:04.075] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/9.pack_ 18:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 706  [15:22:04.075] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/9.pack_
+Info 707  [15:22:04.075] Elapsed:: 0.03847300028428435ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/9.pack_ 18:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 708  [15:22:04.076] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/9.pack 19:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 709  [15:22:04.076] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/9.pack
+Info 710  [15:22:04.076] Elapsed:: 0.03888000035658479ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/9.pack 19:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 711  [15:22:04.076] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 20:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 712  [15:22:04.076] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_
+Info 713  [15:22:04.076] Elapsed:: 0.03900100011378527ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack_ 20:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 714  [15:22:04.076] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 21:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 715  [15:22:04.076] Project: /home/tony/Documents/nextjs/client/tsconfig.json Detected file add/remove of non supported extension: /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack
+Info 716  [15:22:04.076] Elapsed:: 0.04145100014284253ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/.next/cache/webpack/server-development/index.pack 21:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 717  [15:22:05.461] Before ensureProjectForOpenFiles:
+Info 718  [15:22:05.461] After ensureProjectForOpenFiles:
+Info 719  [15:22:05.462] got projects updated in background, updating diagnostics for /home/tony/Documents/nextjs/client/src/pages/index.tsx,/home/tony/Documents/nextjs/client/src/pages/_app.tsx
+Info 720  [15:22:06.061] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 721  [15:22:06.076] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 15.254803000018ms
+Info 722  [15:22:06.076] Different program with same set of files
+Info 723  [15:22:09.827] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 724  [15:22:09.846] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 18.300330999772996ms
+Info 725  [15:22:09.846] Different program with same set of files
+Info 726  [15:23:00.301] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client :: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 727  [15:23:00.301] Elapsed:: 0.14008300006389618ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client :: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 728  [15:23:00.301] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src :: WatchInfo: /home/tony/Documents/nextjs/client/src 1 undefined Project: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Failed Lookup Locations
+Info 729  [15:23:00.301] Elapsed:: 0.04106199974194169ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src :: WatchInfo: /home/tony/Documents/nextjs/client/src 1 undefined Project: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Failed Lookup Locations
+Info 730  [15:23:00.561] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 731  [15:23:00.663] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 28 structureChanged: true structureIsReused:: SafeModules Elapsed: 101.99389699986205ms
+Info 732  [15:23:00.663] Different program with same set of files
+Info 733  [15:23:01.115] Search path: /home/tony/Documents/nextjs/client/src/components/Form
+Info 734  [15:23:01.117] For info: /home/tony/Documents/nextjs/client/src/components/Form/LoginForm.tsx :: Config file name: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 735  [15:23:01.136] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 736  [15:23:02.046] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 909.4678109996021ms
+Info 737  [15:23:02.046] Project '/dev/null/inferredProject2*' (Inferred)
+Info 738  [15:23:02.046] 	Files (102)
+
+Info 739  [15:23:02.046] -----------------------------------------------
+Info 740  [15:23:02.052] AutoImportProviderProject: found 1 root files in 1 dependencies in 3.9181129997596145 ms
+Info 741  [15:23:02.052] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject2*
+Info 742  [15:23:02.142] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject2* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 90.17858400009573ms
+Info 743  [15:23:02.142] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 744  [15:23:02.143] 	Files (134)
+
+Info 745  [15:23:02.143] -----------------------------------------------
+Info 746  [15:23:02.144] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/components/Form/LoginForm.tsx 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 747  [15:23:02.145] Elapsed:: 0.23737600026652217ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/components/Form/LoginForm.tsx 0:: WatchInfo: /home/tony/Documents/nextjs/client 1 undefined Config: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Wild card directory
+Info 748  [15:23:02.145] DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/components/Form/LoginForm.tsx 0:: WatchInfo: /home/tony/Documents/nextjs/client/src 1 undefined Project: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Failed Lookup Locations
+Info 749  [15:23:02.145] Elapsed:: 0.03874900005757809ms DirectoryWatcher:: Triggered with /home/tony/Documents/nextjs/client/src/components/Form/LoginForm.tsx 0:: WatchInfo: /home/tony/Documents/nextjs/client/src 1 undefined Project: /home/tony/Documents/nextjs/client/tsconfig.json WatchType: Failed Lookup Locations
+Info 750  [15:23:02.145] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 751  [15:23:02.164] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 2 structureChanged: false structureIsReused:: Completely Elapsed: 18.487728000152856ms
+Info 752  [15:23:02.164] Different program with same set of files
+Info 753  [15:23:02.181] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 754  [15:23:02.258] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 29 structureChanged: true structureIsReused:: Not Elapsed: 77.2194240000099ms
+Info 755  [15:23:02.259] Project '/home/tony/Documents/nextjs/client/tsconfig.json' (Configured)
+Info 756  [15:23:02.260] 	Files (193)
+
+Info 757  [15:23:02.260] -----------------------------------------------
+Info 758  [15:23:04.646] Before ensureProjectForOpenFiles:
+Info 759  [15:23:04.646] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 760  [15:23:04.650] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 3 structureChanged: true structureIsReused:: Not Elapsed: 4.272931999992579ms
+Info 761  [15:23:04.651] Project '/dev/null/inferredProject2*' (Inferred)
+Info 762  [15:23:04.651] 	Files (0)
+
+Info 763  [15:23:04.651] -----------------------------------------------
+Info 764  [15:23:04.651] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 765  [15:23:04.651] 	Files (134)
+
+Info 766  [15:23:04.651] -----------------------------------------------
+Info 767  [15:23:04.651] After ensureProjectForOpenFiles:
+Info 768  [15:23:04.651] got projects updated in background, updating diagnostics for /home/tony/Documents/nextjs/client/src/pages/index.tsx,/home/tony/Documents/nextjs/client/src/pages/_app.tsx,/home/tony/Documents/nextjs/client/src/components/Form/LoginForm.tsx
+Info 769  [15:23:12.314] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 770  [15:23:12.334] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 30 structureChanged: false structureIsReused:: Completely Elapsed: 19.7516370001249ms
+Info 771  [15:23:12.334] Different program with same set of files
+Info 772  [15:23:12.336] getCompletionData: Get current token: 0.02449099998921156
+Info 773  [15:23:12.336] getCompletionData: Is inside comment: 0.07818399975076318
+Info 774  [15:23:12.336] getCompletionData: Get previous token: 0.08742300001904368
+Info 775  [15:23:12.358] getExportInfoMap: cache miss or empty; calculating new results
+Info 776  [15:23:12.396] getExportInfoMap: done in 45.96176900016144 ms
+Info 777  [15:23:12.409] collectAutoImports: resolved 2 module specifiers, plus 11 ambient and -1 from cache
+Info 778  [15:23:12.409] collectAutoImports: response is complete
+Info 779  [15:23:12.409] collectAutoImports: 12.349285000003874
+Info 780  [15:23:12.409] getCompletionData: Semantic work: 72.9437199998647
+Info 781  [15:23:12.439] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 29.375989000312984
+Info 782  [15:23:12.531] getCompletionData: Get current token: 0.005677000153809786
+Info 783  [15:23:12.531] getCompletionData: Is inside comment: 0.013050000183284283
+Info 784  [15:23:12.531] getCompletionData: Get previous token: 0.012638000305742025
+Info 785  [15:23:12.534] getExportInfoMap: cache hit
+Info 786  [15:23:12.541] collectAutoImports: resolved 0 module specifiers, plus 11 ambient and 4 from cache
+Info 787  [15:23:12.541] collectAutoImports: response is complete
+Info 788  [15:23:12.541] collectAutoImports: 7.310120000038296
+Info 789  [15:23:12.541] getCompletionData: Semantic work: 9.882624000310898
+Info 790  [15:23:12.571] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 30.018953000195324
+Info 791  [15:23:12.575] getCompletionData: Get current token: 0.007135999854654074
+Info 792  [15:23:12.575] getCompletionData: Is inside comment: 0.01851900015026331
+Info 793  [15:23:12.575] getCompletionData: Get previous token: 0.0163569999858737
+Info 794  [15:23:12.578] getExportInfoMap: cache hit
+Info 795  [15:23:12.583] collectAutoImports: resolved 0 module specifiers, plus 11 ambient and 4 from cache
+Info 796  [15:23:12.583] collectAutoImports: response is complete
+Info 797  [15:23:12.583] collectAutoImports: 3.9675590000115335
+Info 798  [15:23:12.583] getCompletionData: Semantic work: 7.976485999766737
+Info 799  [15:23:12.608] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 25.238026999868453
+Info 800  [15:23:12.610] getCompletionData: Get current token: 0.0062049999833106995
+Info 801  [15:23:12.610] getCompletionData: Is inside comment: 0.021228000055998564
+Info 802  [15:23:12.610] getCompletionData: Get previous token: 0.012234000023454428
+Info 803  [15:23:12.614] getExportInfoMap: cache hit
+Info 804  [15:23:12.617] collectAutoImports: resolved 0 module specifiers, plus 11 ambient and 4 from cache
+Info 805  [15:23:12.617] collectAutoImports: response is complete
+Info 806  [15:23:12.617] collectAutoImports: 3.05950600001961
+Info 807  [15:23:12.617] getCompletionData: Semantic work: 6.734097999986261
+Info 808  [15:23:12.635] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 17.32954900013283
+Info 809  [15:23:12.637] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 810  [15:23:12.641] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 31 structureChanged: false structureIsReused:: Completely Elapsed: 4.332880000118166ms
+Info 811  [15:23:12.641] Different program with same set of files
+Info 812  [15:23:12.641] getCompletionData: Get current token: 0.004815999884158373
+Info 813  [15:23:12.641] getCompletionData: Is inside comment: 0.013476999942213297
+Info 814  [15:23:12.642] getCompletionData: Get previous token: 0.011063999962061644
+Info 815  [15:23:12.647] getExportInfoMap: cache hit
+Info 816  [15:23:12.651] collectAutoImports: resolved 0 module specifiers, plus 5 ambient and 0 from cache
+Info 817  [15:23:12.651] collectAutoImports: response is complete
+Info 818  [15:23:12.651] collectAutoImports: 3.808608000166714
+Info 819  [15:23:12.651] getCompletionData: Semantic work: 9.438848000019789
+Info 820  [15:23:12.669] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 18.030803999863565
+Info 821  [15:23:12.739] getCompletionData: Get current token: 0.007682000286877155
+Info 822  [15:23:12.739] getCompletionData: Is inside comment: 0.01775600016117096
+Info 823  [15:23:12.739] getCompletionData: Get previous token: 0.017363999970257282
+Info 824  [15:23:12.743] getExportInfoMap: cache hit
+Info 825  [15:23:12.747] collectAutoImports: resolved 0 module specifiers, plus 5 ambient and 0 from cache
+Info 826  [15:23:12.747] collectAutoImports: response is complete
+Info 827  [15:23:12.747] collectAutoImports: 3.486504000145942
+Info 828  [15:23:12.747] getCompletionData: Semantic work: 7.685429000295699
+Info 829  [15:23:12.764] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 17.41467700013891
+Info 830  [15:23:12.769] getCompletionData: Get current token: 0.007686000317335129
+Info 831  [15:23:12.769] getCompletionData: Is inside comment: 0.02099799970164895
+Info 832  [15:23:12.769] getCompletionData: Get previous token: 0.01784999994561076
+Info 833  [15:23:12.773] getExportInfoMap: cache hit
+Info 834  [15:23:12.776] collectAutoImports: resolved 0 module specifiers, plus 5 ambient and 0 from cache
+Info 835  [15:23:12.776] collectAutoImports: response is complete
+Info 836  [15:23:12.776] collectAutoImports: 3.3598850001581013
+Info 837  [15:23:12.776] getCompletionData: Semantic work: 7.21939399978146
+Info 838  [15:23:12.793] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 16.612042000051588
+Info 839  [15:23:12.801] getCompletionData: Get current token: 0.037186000030487776
+Info 840  [15:23:12.801] getCompletionData: Is inside comment: 0.06379000004380941
+Info 841  [15:23:12.801] getCompletionData: Get previous token: 0.024335999973118305
+Info 842  [15:23:12.805] getExportInfoMap: cache hit
+Info 843  [15:23:12.812] collectAutoImports: resolved 0 module specifiers, plus 5 ambient and 0 from cache
+Info 844  [15:23:12.812] collectAutoImports: response is complete
+Info 845  [15:23:12.812] collectAutoImports: 6.5423999996855855
+Info 846  [15:23:12.812] getCompletionData: Semantic work: 10.52803699998185
+Info 847  [15:23:12.831] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 19.734294999856502
+Info 848  [15:23:12.838] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 849  [15:23:12.958] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 32 structureChanged: true structureIsReused:: SafeModules Elapsed: 119.61658099992201ms
+Info 850  [15:23:12.958] Different program with same set of files
+Info 851  [15:23:13.308] Format host information updated
+Info 852  [15:23:16.734] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 853  [15:23:16.783] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 33 structureChanged: true structureIsReused:: SafeModules Elapsed: 48.62054200004786ms
+Info 854  [15:23:16.783] Different program with same set of files
+Info 855  [15:23:19.252] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 856  [15:23:19.268] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 34 structureChanged: false structureIsReused:: Completely Elapsed: 16.570995000191033ms
+Info 857  [15:23:19.269] Different program with same set of files
+Info 858  [15:23:20.069] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 859  [15:23:20.078] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 35 structureChanged: false structureIsReused:: Completely Elapsed: 8.309991999994963ms
+Info 860  [15:23:20.078] Different program with same set of files
+Info 861  [15:23:20.079] getCompletionData: Get current token: 0.012676000129431486
+Info 862  [15:23:20.079] getCompletionData: Is inside comment: 0.03359400015324354
+Info 863  [15:23:20.079] getCompletionData: Get previous token: 0.04848399991169572
+Info 864  [15:23:20.079] getCompletionsAtPosition: isCompletionListBlocker: 0.15558800008147955
+Info 865  [15:23:20.090] getExportInfoMap: cache hit
+Info 866  [15:23:20.096] collectAutoImports: resolved 2 module specifiers, plus 10 ambient and -1 from cache
+Info 867  [15:23:20.096] collectAutoImports: response is complete
+Info 868  [15:23:20.096] collectAutoImports: 5.608516999986023
+Info 869  [15:23:20.096] getCompletionData: Semantic work: 16.864865999668837
+Info 870  [15:23:20.125] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 29.146067999769002
+Info 871  [15:23:20.140] getCompletionData: Get current token: 0.019656000193208456
+Info 872  [15:23:20.140] getCompletionData: Is inside comment: 0.052660999819636345
+Info 873  [15:23:20.141] getCompletionData: Get previous token: 0.07851100014522672
+Info 874  [15:23:20.141] getCompletionsAtPosition: isCompletionListBlocker: 0.009829999879002571
+Info 875  [15:23:20.149] getExportInfoMap: cache hit
+Info 876  [15:23:20.152] collectAutoImports: resolved 0 module specifiers, plus 10 ambient and 3 from cache
+Info 877  [15:23:20.152] collectAutoImports: response is complete
+Info 878  [15:23:20.152] collectAutoImports: 3.0408799997530878
+Info 879  [15:23:20.152] getCompletionData: Semantic work: 11.840060000307858
+Info 880  [15:23:20.170] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 17.193291999865323
+Info 881  [15:23:20.179] getCompletionData: Get current token: 0.026345000136643648
+Info 882  [15:23:20.179] getCompletionData: Is inside comment: 0.057388999965041876
+Info 883  [15:23:20.179] getCompletionData: Get previous token: 0.0884329997934401
+Info 884  [15:23:20.179] getCompletionsAtPosition: isCompletionListBlocker: 0.009848999790847301
+Info 885  [15:23:20.184] getExportInfoMap: cache hit
+Info 886  [15:23:20.187] collectAutoImports: resolved 0 module specifiers, plus 10 ambient and 3 from cache
+Info 887  [15:23:20.188] collectAutoImports: response is complete
+Info 888  [15:23:20.188] collectAutoImports: 3.4599429997615516
+Info 889  [15:23:20.188] getCompletionData: Semantic work: 8.565357999876142
+Info 890  [15:23:20.203] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 15.281514999922365
+Info 891  [15:23:20.205] getCompletionData: Get current token: 0.010209999978542328
+Info 892  [15:23:20.205] getCompletionData: Is inside comment: 0.024840999860316515
+Info 893  [15:23:20.205] getCompletionData: Get previous token: 0.03828500024974346
+Info 894  [15:23:20.205] getCompletionsAtPosition: isCompletionListBlocker: 0.0053010000847280025
+Info 895  [15:23:20.207] getExportInfoMap: cache hit
+Info 896  [15:23:20.209] collectAutoImports: resolved 0 module specifiers, plus 10 ambient and 3 from cache
+Info 897  [15:23:20.209] collectAutoImports: response is complete
+Info 898  [15:23:20.209] collectAutoImports: 1.9496530001051724
+Info 899  [15:23:20.209] getCompletionData: Semantic work: 3.9010960003361106
+Info 900  [15:23:20.224] getCompletionsAtPosition: getCompletionEntriesFromSymbols: 14.572601999621838
+Info 901  [15:23:20.227] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 902  [15:23:20.248] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 36 structureChanged: false structureIsReused:: Completely Elapsed: 20.862393000163138ms
+Info 903  [15:23:20.248] Different program with same set of files
+Info 904  [15:23:21.033] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 905  [15:23:21.038] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 37 structureChanged: false structureIsReused:: Completely Elapsed: 4.551638000179082ms
+Info 906  [15:23:21.038] Different program with same set of files
+Info 907  [15:23:21.616] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 908  [15:23:21.626] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 38 structureChanged: false structureIsReused:: Completely Elapsed: 9.63104599993676ms
+Info 909  [15:23:21.626] Different program with same set of files
+Info 910  [15:23:21.886] Format host information updated
+Info 911  [15:23:22.095] Starting updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json
+Info 912  [15:23:22.103] Finishing updateGraphWorker: Project: /home/tony/Documents/nextjs/client/tsconfig.json Version: 39 structureChanged: false structureIsReused:: Completely Elapsed: 7.771375000011176ms
+Info 913  [15:23:22.103] Different program with same set of files
