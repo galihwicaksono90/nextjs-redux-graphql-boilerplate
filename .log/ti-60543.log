@@ -1,0 +1,19 @@
+[20:37:04.757] Global cache location '/home/tony/.cache/typescript/4.6', safe file path '/home/tony/Documents/nextjs/client/node_modules/typescript/lib/typingSafeList.json', types map path /home/tony/Documents/nextjs/client/node_modules/typescript/lib/typesMap.json
+[20:37:04.758] Processing cache location '/home/tony/.cache/typescript/4.6'
+[20:37:04.758] Trying to find '/home/tony/.cache/typescript/4.6/package.json'...
+[20:37:04.759] Loaded content of '/home/tony/.cache/typescript/4.6/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.584"}}
+[20:37:04.759] Loaded content of '/home/tony/.cache/typescript/4.6/package-lock.json'
+[20:37:04.759] Finished processing cache location '/home/tony/.cache/typescript/4.6'
+[20:37:04.759] Process id: 60550
+[20:37:04.759] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[20:37:04.759] validateDefaultNpmLocation: false
+[20:37:04.760] Npm config file: /home/tony/.cache/typescript/4.6/package.json
+[20:37:04.760] Updating types-registry npm package...
+[20:37:04.760] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[20:37:07.495]     Succeeded. stdout:
+    
+    up to date, audited 2 packages in 3s
+
+found 0 vulnerabilities
+
+[20:37:07.495] Updated types-registry npm package

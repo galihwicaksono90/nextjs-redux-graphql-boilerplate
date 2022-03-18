@@ -1,0 +1,132 @@
+[15:26:33.210] Global cache location '/home/tony/.cache/typescript/4.6', safe file path '/home/tony/Documents/nextjs/client/node_modules/typescript/lib/typingSafeList.json', types map path /home/tony/Documents/nextjs/client/node_modules/typescript/lib/typesMap.json
+[15:26:33.211] Processing cache location '/home/tony/.cache/typescript/4.6'
+[15:26:33.212] Trying to find '/home/tony/.cache/typescript/4.6/package.json'...
+[15:26:33.212] Loaded content of '/home/tony/.cache/typescript/4.6/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.584"}}
+[15:26:33.212] Loaded content of '/home/tony/.cache/typescript/4.6/package-lock.json'
+[15:26:33.212] Finished processing cache location '/home/tony/.cache/typescript/4.6'
+[15:26:33.213] Process id: 14689
+[15:26:33.213] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[15:26:33.213] validateDefaultNpmLocation: false
+[15:26:33.213] Npm config file: /home/tony/.cache/typescript/4.6/package.json
+[15:26:33.214] Updating types-registry npm package...
+[15:26:33.214] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[15:28:44.122]     Succeeded. stdout:
+    
+    up to date in 2m
+
+[15:28:44.122] Updated types-registry npm package
+[15:31:18.444] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/tony/Documents/nextjs/client/src/components/Form","kind":"discover"}
+[15:31:18.468] Loaded safelist from types map file '/home/tony/Documents/nextjs/client/node_modules/typescript/lib/typesMap.json'
+[15:31:18.468] Explicitly included types: []
+[15:31:18.469] Inferred typings from unresolved imports: []
+[15:31:18.469] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/tony/Documents/nextjs/client/src/components/Form/bower_components","/home/tony/Documents/nextjs/client/src/components/Form/node_modules"]}
+[15:31:18.469] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/tony/Documents/nextjs/client/src/components/Form/bower_components","/home/tony/Documents/nextjs/client/src/components/Form/node_modules"]}
+[15:31:18.469] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/components/Form/bower_components
+[15:31:18.470] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/components/Form/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[15:31:18.471] Elapsed:: 1.3420199998654425ms DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/components/Form/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[15:31:18.471] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/components/Form/node_modules
+[15:31:18.471] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/components/Form/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[15:31:18.471] Elapsed:: 0.10385500034317374ms DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/components/Form/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[15:31:18.471] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[15:31:18.472] Response has been sent.
+[15:31:18.472] No new typings were requested as a result of typings discovery
+[15:39:09.637] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/tony/Documents/nextjs/client/src/pages","kind":"discover"}
+[15:39:09.637] Explicitly included types: []
+[15:39:09.637] Inferred typings from unresolved imports: []
+[15:39:09.637] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/tony/Documents/nextjs/client/src/pages/bower_components","/home/tony/Documents/nextjs/client/src/pages/node_modules"]}
+[15:39:09.637] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/tony/Documents/nextjs/client/src/pages/bower_components","/home/tony/Documents/nextjs/client/src/pages/node_modules"]}
+[15:39:09.637] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/pages/bower_components
+[15:39:09.637] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/pages/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[15:39:09.637] Elapsed:: 0.18447600025683641ms DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/pages/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[15:39:09.637] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/pages/node_modules
+[15:39:09.637] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/pages/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[15:39:09.637] Elapsed:: 0.07477199984714389ms DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/pages/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[15:39:09.637] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[15:39:09.637] Response has been sent.
+[15:39:09.637] No new typings were requested as a result of typings discovery
+[15:41:09.760] Got install request {"projectName":"/dev/null/inferredProject3*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/tony/Documents/nextjs/client/src/components/Form","kind":"discover"}
+[15:41:09.760] Explicitly included types: []
+[15:41:09.760] Inferred typings from unresolved imports: []
+[15:41:09.761] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/tony/Documents/nextjs/client/src/components/Form/bower_components","/home/tony/Documents/nextjs/client/src/components/Form/node_modules"]}
+[15:41:09.761] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/tony/Documents/nextjs/client/src/components/Form/bower_components","/home/tony/Documents/nextjs/client/src/components/Form/node_modules"]}
+[15:41:09.762] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/components/Form/bower_components
+[15:41:09.762] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/components/Form/bower_components 1 undefined Project: /dev/null/inferredProject3* watcher already invoked: false
+[15:41:09.762] Elapsed:: 0.05432200012728572ms DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/components/Form/bower_components 1 undefined Project: /dev/null/inferredProject3* watcher already invoked: false
+[15:41:09.762] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/components/Form/node_modules
+[15:41:09.762] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/components/Form/node_modules 1 undefined Project: /dev/null/inferredProject3* watcher already invoked: false
+[15:41:09.762] Elapsed:: 0.03594500012695789ms DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/components/Form/node_modules 1 undefined Project: /dev/null/inferredProject3* watcher already invoked: false
+[15:41:09.762] Sending response:
+    {"projectName":"/dev/null/inferredProject3*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[15:41:09.763] Response has been sent.
+[15:41:09.763] No new typings were requested as a result of typings discovery
+[15:42:50.687] Got install request {"projectName":"/dev/null/inferredProject3*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/tony/Documents/nextjs/client/src/components/Form","kind":"discover"}
+[15:42:50.687] Explicitly included types: []
+[15:42:50.688] Inferred typings from unresolved imports: []
+[15:42:50.688] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/tony/Documents/nextjs/client/src/components/Form/bower_components","/home/tony/Documents/nextjs/client/src/components/Form/node_modules"]}
+[15:42:50.688] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/tony/Documents/nextjs/client/src/components/Form/bower_components","/home/tony/Documents/nextjs/client/src/components/Form/node_modules"]}
+[15:42:50.689] Sending response:
+    {"projectName":"/dev/null/inferredProject3*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[15:42:50.689] Response has been sent.
+[15:42:50.690] No new typings were requested as a result of typings discovery
+[15:57:29.061] Got install request {"projectName":"/dev/null/inferredProject4*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/tony/Documents/nextjs/client/src/app","kind":"discover"}
+[15:57:29.061] Explicitly included types: []
+[15:57:29.061] Inferred typings from unresolved imports: []
+[15:57:29.061] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/tony/Documents/nextjs/client/src/app/bower_components","/home/tony/Documents/nextjs/client/src/app/node_modules"]}
+[15:57:29.061] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/tony/Documents/nextjs/client/src/app/bower_components","/home/tony/Documents/nextjs/client/src/app/node_modules"]}
+[15:57:29.061] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/app/bower_components
+[15:57:29.061] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/app/bower_components 1 undefined Project: /dev/null/inferredProject4* watcher already invoked: false
+[15:57:29.062] Elapsed:: 0.13375800009816885ms DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/app/bower_components 1 undefined Project: /dev/null/inferredProject4* watcher already invoked: false
+[15:57:29.062] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/app/node_modules
+[15:57:29.062] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/app/node_modules 1 undefined Project: /dev/null/inferredProject4* watcher already invoked: false
+[15:57:29.062] Elapsed:: 0.09563800040632486ms DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/app/node_modules 1 undefined Project: /dev/null/inferredProject4* watcher already invoked: false
+[15:57:29.062] Sending response:
+    {"projectName":"/dev/null/inferredProject4*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[15:57:29.062] Response has been sent.
+[15:57:29.062] No new typings were requested as a result of typings discovery
+[16:00:52.194] Got install request {"projectName":"/dev/null/inferredProject5*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/tony/Documents/nextjs/client/src/features/api","kind":"discover"}
+[16:00:52.194] Explicitly included types: []
+[16:00:52.194] Inferred typings from unresolved imports: []
+[16:00:52.194] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/tony/Documents/nextjs/client/src/features/api/bower_components","/home/tony/Documents/nextjs/client/src/features/api/node_modules"]}
+[16:00:52.194] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/tony/Documents/nextjs/client/src/features/api/bower_components","/home/tony/Documents/nextjs/client/src/features/api/node_modules"]}
+[16:00:52.194] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/features/api/bower_components
+[16:00:52.194] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/features/api/bower_components 1 undefined Project: /dev/null/inferredProject5* watcher already invoked: false
+[16:00:52.194] Elapsed:: 0.12737700063735247ms DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/features/api/bower_components 1 undefined Project: /dev/null/inferredProject5* watcher already invoked: false
+[16:00:52.194] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/features/api/node_modules
+[16:00:52.194] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/features/api/node_modules 1 undefined Project: /dev/null/inferredProject5* watcher already invoked: false
+[16:00:52.195] Elapsed:: 0.1108600003644824ms DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/features/api/node_modules 1 undefined Project: /dev/null/inferredProject5* watcher already invoked: false
+[16:00:52.195] Sending response:
+    {"projectName":"/dev/null/inferredProject5*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[16:00:52.195] Response has been sent.
+[16:00:52.195] No new typings were requested as a result of typings discovery
+[16:30:19.057] Got install request {"projectName":"/dev/null/inferredProject6*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/tony/Documents/nextjs/client/src/generated","kind":"discover"}
+[16:30:19.057] Explicitly included types: []
+[16:30:19.058] Inferred typings from unresolved imports: []
+[16:30:19.058] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/tony/Documents/nextjs/client/src/generated/bower_components","/home/tony/Documents/nextjs/client/src/generated/node_modules"]}
+[16:30:19.058] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/tony/Documents/nextjs/client/src/generated/bower_components","/home/tony/Documents/nextjs/client/src/generated/node_modules"]}
+[16:30:19.058] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/generated/bower_components
+[16:30:19.059] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/generated/bower_components 1 undefined Project: /dev/null/inferredProject6* watcher already invoked: false
+[16:30:19.060] Elapsed:: 0.8480609999969602ms DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/generated/bower_components 1 undefined Project: /dev/null/inferredProject6* watcher already invoked: false
+[16:30:19.060] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/generated/node_modules
+[16:30:19.060] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/generated/node_modules 1 undefined Project: /dev/null/inferredProject6* watcher already invoked: false
+[16:30:19.061] Elapsed:: 0.7827409999445081ms DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/generated/node_modules 1 undefined Project: /dev/null/inferredProject6* watcher already invoked: false
+[16:30:19.061] Sending response:
+    {"projectName":"/dev/null/inferredProject6*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[16:30:19.061] Response has been sent.
+[16:30:19.062] No new typings were requested as a result of typings discovery
+[16:50:53.048] Got install request {"projectName":"/dev/null/inferredProject7*","fileNames":[],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/tony/Documents/nextjs/client/src/pages","kind":"discover"}
+[16:50:53.049] Explicitly included types: []
+[16:50:53.049] Inferred typings from unresolved imports: []
+[16:50:53.049] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/tony/Documents/nextjs/client/src/pages/bower_components","/home/tony/Documents/nextjs/client/src/pages/node_modules"]}
+[16:50:53.049] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/tony/Documents/nextjs/client/src/pages/bower_components","/home/tony/Documents/nextjs/client/src/pages/node_modules"]}
+[16:50:53.050] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/pages/bower_components
+[16:50:53.050] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/pages/bower_components 1 undefined Project: /dev/null/inferredProject7* watcher already invoked: false
+[16:50:53.050] Elapsed:: 0.026119999587535858ms DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/pages/bower_components 1 undefined Project: /dev/null/inferredProject7* watcher already invoked: false
+[16:50:53.050] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/pages/node_modules
+[16:50:53.050] DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/pages/node_modules 1 undefined Project: /dev/null/inferredProject7* watcher already invoked: false
+[16:50:53.050] Elapsed:: 0.007134999148547649ms DirectoryWatcher:: Added:: WatchInfo: /home/tony/Documents/nextjs/client/src/pages/node_modules 1 undefined Project: /dev/null/inferredProject7* watcher already invoked: false
+[16:50:53.050] Sending response:
+    {"projectName":"/dev/null/inferredProject7*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[16:50:53.050] Response has been sent.
+[16:50:53.050] No new typings were requested as a result of typings discovery
