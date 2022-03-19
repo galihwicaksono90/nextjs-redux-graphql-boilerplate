@@ -23,3 +23,9 @@ export const {
   useUsersQuery,
   useLazyUsersQuery,
 } = api;
+
+export const {
+  util: { getRunningOperationPromises },
+} = api;
+
+export const { Users } = api.endpoints;

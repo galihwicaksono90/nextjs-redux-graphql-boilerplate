@@ -1,23 +1,22 @@
 import { MantineProvider } from "@mantine/core";
 import { AppProps } from "next/app";
-import { Provider } from "react-redux";
-import { store } from "app/store";
+import { wrapper } from "app/store";
 
-export default function App(props: AppProps) {
+export function App(props: AppProps) {
   const { Component, pageProps } = props;
 
   return (
-    <Provider store={store}>
-      <MantineProvider
-        withGlobalStyles
-        withNormalizeCSS
-        theme={{
-          /** Put your mantine theme override here */
-          colorScheme: "dark",
-        }}
-      >
-        <Component {...pageProps} />
-      </MantineProvider>
-    </Provider>
+    <MantineProvider
+      withGlobalStyles
+      withNormalizeCSS
+      theme={{
+        /** Put your mantine theme override here */
+        colorScheme: "dark",
+      }}
+    >
+      <Component {...pageProps} />
+    </MantineProvider>
   );
 }
+
+export default wrapper.withRedux(App);
