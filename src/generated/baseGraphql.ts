@@ -15,15 +15,36 @@ export type Scalars = {
   DateTime: any;
 };
 
-export type AuthObject = {
-  __typename?: 'AuthObject';
-  user: User;
+export type Auth = FieldErrors | User;
+
+export type FieldError = {
+  __typename?: 'FieldError';
+  field?: Maybe<Scalars['String']>;
+  message?: Maybe<Scalars['String']>;
+};
+
+export type FieldErrors = {
+  __typename?: 'FieldErrors';
+  errors?: Maybe<Array<Maybe<FieldError>>>;
 };
 
 export type Mutation = {
   __typename?: 'Mutation';
-  login: User;
-  register: User;
+  createPost: PostPayload;
+  deletePost: Post;
+  login?: Maybe<Auth>;
+  logout?: Maybe<Scalars['Boolean']>;
+  register: Auth;
+};
+
+
+export type MutationCreatePostArgs = {
+  title: Scalars['String'];
+};
+
+
+export type MutationDeletePostArgs = {
+  id: Scalars['Int'];
 };
 
 
@@ -41,27 +62,52 @@ export type MutationRegisterArgs = {
 export type Post = {
   __typename?: 'Post';
   createdAt: Scalars['DateTime'];
+  createdBy?: Maybe<User>;
   id: Scalars['Int'];
   title: Scalars['String'];
   updatedAt: Scalars['DateTime'];
 };
 
+export type PostPayload = FieldErrors | Post;
+
 export type Query = {
   __typename?: 'Query';
+  getPostById: Post;
+  getUserPosts: Array<Maybe<Post>>;
   me?: Maybe<User>;
   posts: Array<Post>;
   users: Array<User>;
+};
+
+
+export type QueryGetPostByIdArgs = {
+  id: Scalars['Int'];
 };
 
 export type User = {
   __typename?: 'User';
   createdAt: Scalars['DateTime'];
   id: Scalars['Int'];
+  posts: Array<Post>;
   updatedAt: Scalars['DateTime'];
   username: Scalars['String'];
 };
 
 export type RegularUserFragment = { __typename?: 'User', id: number, username: string };
+
+export type CreatePostMutationVariables = Exact<{
+  title: Scalars['String'];
+}>;
+
+
+export type CreatePostMutation = { __typename?: 'Mutation', createPost: { __typename: 'FieldErrors', errors?: Array<{ __typename?: 'FieldError', message?: string | null, field?: string | null } | null> | null } | { __typename: 'Post', id: number, title: string } };
+
+export type DeletePostMutationVariables = Exact<{
+  id: Scalars['Int'];
+}>;
+
+
+export type DeletePostMutation = { __typename?: 'Mutation', deletePost: { __typename?: 'Post', id: number, title: string, createdBy?: { __typename?: 'User', username: string, id: number } | null } };
 
 export type LoginMutationVariables = Exact<{
   password: Scalars['String'];
@@ -69,7 +115,12 @@ export type LoginMutationVariables = Exact<{
 }>;
 
 
-export type LoginMutation = { __typename?: 'Mutation', login: { __typename?: 'User', id: number, username: string } };
+export type LoginMutation = { __typename?: 'Mutation', login?: { __typename: 'FieldErrors', errors?: Array<{ __typename?: 'FieldError', field?: string | null, message?: string | null } | null> | null } | { __typename: 'User', id: number, username: string } | null };
+
+export type LogoutMutationVariables = Exact<{ [key: string]: never; }>;
+
+
+export type LogoutMutation = { __typename?: 'Mutation', logout?: boolean | null };
 
 export type RegisterMutationVariables = Exact<{
   password: Scalars['String'];
@@ -77,12 +128,29 @@ export type RegisterMutationVariables = Exact<{
 }>;
 
 
-export type RegisterMutation = { __typename?: 'Mutation', register: { __typename?: 'User', id: number, username: string } };
+export type RegisterMutation = { __typename?: 'Mutation', register: { __typename: 'FieldErrors', errors?: Array<{ __typename?: 'FieldError', message?: string | null, field?: string | null } | null> | null } | { __typename: 'User', id: number, username: string } };
+
+export type GetPostByIdQueryVariables = Exact<{
+  id: Scalars['Int'];
+}>;
+
+
+export type GetPostByIdQuery = { __typename?: 'Query', getPostById: { __typename?: 'Post', id: number, title: string, createdAt: any, updatedAt: any, createdBy?: { __typename?: 'User', id: number, username: string } | null } };
+
+export type GetUserPostsQueryVariables = Exact<{ [key: string]: never; }>;
+
+
+export type GetUserPostsQuery = { __typename?: 'Query', getUserPosts: Array<{ __typename?: 'Post', id: number, title: string, createdAt: any, updatedAt: any } | null> };
 
 export type MeQueryVariables = Exact<{ [key: string]: never; }>;
 
 
 export type MeQuery = { __typename?: 'Query', me?: { __typename?: 'User', id: number, username: string } | null };
+
+export type PostsQueryVariables = Exact<{ [key: string]: never; }>;
+
+
+export type PostsQuery = { __typename?: 'Query', posts: Array<{ __typename?: 'Post', id: number, title: string }> };
 
 export type UsersQueryVariables = Exact<{ [key: string]: never; }>;
 
@@ -95,18 +163,94 @@ export const RegularUserFragmentDoc = `
   username
 }
     `;
+export const CreatePostDocument = `
+    mutation CreatePost($title: String!) {
+  createPost(title: $title) {
+    __typename
+    ... on Post {
+      id
+      title
+    }
+    ... on FieldErrors {
+      errors {
+        message
+        field
+      }
+    }
+  }
+}
+    `;
+export const DeletePostDocument = `
+    mutation DeletePost($id: Int!) {
+  deletePost(id: $id) {
+    id
+    title
+    createdBy {
+      username
+      id
+    }
+  }
+}
+    `;
 export const LoginDocument = `
     mutation Login($password: String!, $username: String!) {
   login(password: $password, username: $username) {
-    ...RegularUser
+    __typename
+    ... on FieldErrors {
+      errors {
+        field
+        message
+      }
+    }
+    ... on User {
+      ...RegularUser
+    }
   }
 }
     ${RegularUserFragmentDoc}`;
+export const LogoutDocument = `
+    mutation logout {
+  logout
+}
+    `;
 export const RegisterDocument = `
     mutation Register($password: String!, $username: String!) {
-  register(password: $password, username: $username) {
+  register(username: $username, password: $password) {
+    __typename
+    ... on User {
+      id
+      username
+    }
+    ... on FieldErrors {
+      errors {
+        message
+        field
+      }
+    }
+  }
+}
+    `;
+export const GetPostByIdDocument = `
+    query GetPostById($id: Int!) {
+  getPostById(id: $id) {
     id
-    username
+    title
+    createdAt
+    updatedAt
+    createdBy {
+      id
+      username
+    }
+  }
+}
+    `;
+export const GetUserPostsDocument = `
+    query GetUserPosts {
+  getUserPosts {
+    id
+    title
+    createdAt
+    updatedAt
   }
 }
     `;
@@ -115,6 +259,14 @@ export const MeDocument = `
   me {
     id
     username
+  }
+}
+    `;
+export const PostsDocument = `
+    query Posts {
+  posts {
+    id
+    title
   }
 }
     `;
@@ -129,14 +281,32 @@ export const UsersDocument = `
 
 const injectedRtkApi = api.injectEndpoints({
   endpoints: (build) => ({
+    CreatePost: build.mutation<CreatePostMutation, CreatePostMutationVariables>({
+      query: (variables) => ({ document: CreatePostDocument, variables })
+    }),
+    DeletePost: build.mutation<DeletePostMutation, DeletePostMutationVariables>({
+      query: (variables) => ({ document: DeletePostDocument, variables })
+    }),
     Login: build.mutation<LoginMutation, LoginMutationVariables>({
       query: (variables) => ({ document: LoginDocument, variables })
+    }),
+    logout: build.mutation<LogoutMutation, LogoutMutationVariables | void>({
+      query: (variables) => ({ document: LogoutDocument, variables })
     }),
     Register: build.mutation<RegisterMutation, RegisterMutationVariables>({
       query: (variables) => ({ document: RegisterDocument, variables })
     }),
+    GetPostById: build.query<GetPostByIdQuery, GetPostByIdQueryVariables>({
+      query: (variables) => ({ document: GetPostByIdDocument, variables })
+    }),
+    GetUserPosts: build.query<GetUserPostsQuery, GetUserPostsQueryVariables | void>({
+      query: (variables) => ({ document: GetUserPostsDocument, variables })
+    }),
     Me: build.query<MeQuery, MeQueryVariables | void>({
       query: (variables) => ({ document: MeDocument, variables })
+    }),
+    Posts: build.query<PostsQuery, PostsQueryVariables | void>({
+      query: (variables) => ({ document: PostsDocument, variables })
     }),
     Users: build.query<UsersQuery, UsersQueryVariables | void>({
       query: (variables) => ({ document: UsersDocument, variables })
@@ -145,5 +315,5 @@ const injectedRtkApi = api.injectEndpoints({
 });
 
 export { injectedRtkApi as api };
-export const { useLoginMutation, useRegisterMutation, useMeQuery, useLazyMeQuery, useUsersQuery, useLazyUsersQuery } = injectedRtkApi;
+export const { useCreatePostMutation, useDeletePostMutation, useLoginMutation, useLogoutMutation, useRegisterMutation, useGetPostByIdQuery, useLazyGetPostByIdQuery, useGetUserPostsQuery, useLazyGetUserPostsQuery, useMeQuery, useLazyMeQuery, usePostsQuery, useLazyPostsQuery, useUsersQuery, useLazyUsersQuery } = injectedRtkApi;
 

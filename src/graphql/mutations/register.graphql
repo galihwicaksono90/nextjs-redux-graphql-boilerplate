@@ -1,6 +1,15 @@
 mutation Register($password: String!, $username: String!) {
-  register(password: $password, username: $username) {
-    id
-    username
+  register(username: $username, password: $password) {
+    __typename
+    ... on User {
+      id
+      username
+    }
+    ... on FieldErrors {
+      errors {
+        message
+        field
+      }
+    }
   }
 }

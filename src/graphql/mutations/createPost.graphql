@@ -1,0 +1,15 @@
+mutation CreatePost($title: String!) {
+  createPost(title: $title) {
+    __typename
+    ... on Post {
+      id
+      title
+    }
+    ... on FieldErrors {
+      errors {
+        message
+        field
+      }
+    }
+  }
+}

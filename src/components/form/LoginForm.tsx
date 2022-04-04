@@ -1,12 +1,13 @@
 import React from "react";
 import { useForm } from "@mantine/form";
-import { Box, Input, TextInput, Title, Container, Button } from "@mantine/core";
+import { Box, TextInput, Title, Container, Button } from "@mantine/core";
 import { useLoginMutation } from "generated/graphql";
 import { useRouter } from "next/router";
+import { parseFieldErrors } from "utils";
 
 export const LoginForm = () => {
   const router = useRouter();
-  const [login, { data: user, isLoading }] = useLoginMutation();
+  const [login, { isLoading, data: loginData }] = useLoginMutation();
 
   const form = useForm({
     initialValues: {
@@ -17,8 +18,15 @@ export const LoginForm = () => {
 
   const onSubmit = form.onSubmit(async (values) => {
     try {
-      const data = await login(values);
-      console.log({ data });
+      const response = await login(values).unwrap();
+
+      if (response?.login?.__typename === "FieldErrors") {
+        const { errors } = response.login;
+        const fieldErrors = parseFieldErrors(errors);
+        form.setErrors(fieldErrors);
+        return;
+      }
+
       router.push("/");
     } catch (error) {
       console.log({ error });
@@ -48,7 +56,6 @@ export const LoginForm = () => {
           Login
         </Button>
       </form>
-      <pre>{JSON.stringify(user, null, 2)}</pre>
     </Container>
   );
 };

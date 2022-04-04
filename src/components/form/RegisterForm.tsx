@@ -17,8 +17,18 @@ export const RegisterForm = () => {
 
   const onSubmit = form.onSubmit(async (values) => {
     try {
-      const data = await register(values);
-      /* console.log({ data }); */
+      const response = await register(values).unwrap();
+
+      if (response?.register?.__typename === "FieldErrors") {
+        const { errors } = response.register;
+        const fieldErrors = {};
+        for (let i = 0; i < errors.length; i++) {
+          fieldErrors[errors[i].field] = errors[i].message;
+        }
+
+        form.setErrors(fieldErrors);
+        return;
+      }
       router.push("/");
     } catch (error) {
       console.log({ error });
@@ -42,6 +52,7 @@ export const RegisterForm = () => {
           label="Password"
           placeholder="Password"
           {...form.getInputProps("password")}
+          type="password"
         />
         <Button type="submit">Register</Button>
       </form>
