@@ -1,0 +1,8 @@
+#+TITLE: Nextjs redux graphql boilerplate
+
+* Stack
+- Nextjs
+- Redux/RTK Query
+- Graphql codegen
+- Mantine
+- Typescript
